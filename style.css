@@ -284,11 +284,16 @@ body{
 }
 @media (max-width:600px){
   .nav{
-    display:flex; 
-    flex-direction:column; 
-    gap:10px;
+    display:flex;          /* keep flex */
+    flex-direction:row;    /* row = horizontal */
+    justify-content:center;/* center the links */
+    gap:8px;               /* small spacing */
+    font-size:0.85rem;     /* shrink text size */
   }
 }
+
+}
+
 
 
 
