@@ -284,15 +284,21 @@ body{
 }
 @media (max-width:600px){
   .nav{
-    display:flex;          /* keep flex */
-    flex-direction:row;    /* row = horizontal */
-    justify-content:center;/* center the links */
-    gap:8px;               /* small spacing */
-    font-size:0.85rem;     /* shrink text size */
+    display:flex;
+    flex-direction:row;       /* keep horizontal */
+    flex-wrap:wrap;           /* allow wrapping if needed */
+    justify-content:space-around; /* spread links evenly */
+    gap:6px;                  /* smaller spacing */
+    font-size:0.8rem;         /* smaller text size */
+  }
+  .nav a{
+    padding:4px;              /* reduce padding around links */
   }
 }
 
-}
+
+
+
 
 
 
