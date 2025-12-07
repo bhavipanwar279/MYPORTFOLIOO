@@ -282,5 +282,13 @@ body{
   text-decoration: none;
   transition: transform .22s ease, box-shadow .22s ease, color .18s ease;
 }
+@media (max-width:600px){
+  .nav{
+    display:flex; 
+    flex-direction:column; 
+    gap:10px;
+  }
+}
+
 
 
